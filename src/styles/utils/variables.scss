@@ -1,0 +1,64 @@
+// Colores
+$color-principal: #233b63;
+$color-principal-rgb: rgb(35, 59, 99);
+$color-secundario: #7f1625;
+$color-secundario-rgb: rgb(127, 22, 37);
+$color-secundario-hover: #4f1626;
+$color-hover: #bfbfbf;
+
+$white: #fff;
+$grey: #808080;
+$orange: #ffa500;
+
+$background-color: #e5e4e0;
+$background-color-rgb: rgb(229, 228, 224);
+$background-color-hover: #416093;
+$background-color-hover-rgb: rgb(65, 96, 147);
+$background-color-transparent: rgba(5, 5, 5, .6);
+$background-color-transparent-ligth: rgba(5, 5, 5, .2);
+
+$height-navbar: 100px;
+
+%placeholder {
+  ::-webkit-input-placeholder {
+    color: $white;
+  }
+
+  :-moz-placeholder {
+    color: $white;
+  }
+
+  ::-moz-placeholder {
+    color: $white;
+  }
+
+  :-ms-input-placeholder {
+    color: $white;
+  }
+}
+
+%boton {
+  background-color: transparent;
+  border: solid 1px $white;
+  color: $white;
+  padding: .3rem;
+  text-align: center;
+  @media (min-width: 992px) {
+    padding: .5rem 2rem;
+  }
+
+  &:hover {
+    background-color: $color-secundario;
+    border-color: $color-secundario;
+    color: $white;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  &:visited,
+  &:focus,
+  &:active {
+    color: $white;
+    text-decoration: none;
+  }
+}

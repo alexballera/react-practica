@@ -1,0 +1,23 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+build
+public
+
+# Dependency directories
+node_modules
+jspm_packages
+
+# Optional npm cache directory
+.npm
+
+bower_components
+*.tmp.*
+.sass-cache
+.idea
+logs
+*.log
+npm-debug.log*
+.publish

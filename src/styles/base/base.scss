@@ -1,0 +1,16 @@
+body {
+  background-color: $background-color;
+  color: $color-secundario;
+}
+
+a {
+  text-decoration: none;
+
+  &:hover,
+  &:visited,
+  &:focus,
+  &:active {
+    color: $white;
+    text-decoration: none;
+  }
+}
