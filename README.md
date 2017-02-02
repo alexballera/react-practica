@@ -6,3 +6,17 @@ npm i -D babel-plugin-transform-regenerator babel-preset-latest babelify browser
 ```bash
 npm i -S babel-eslint bootstrap@4.0.0-alpha.6 empty-element jquery standard title yo-yo
 ```
+```jason
+"scripts": {
+    "lint": "standard",
+    "test": "npm run lint",
+    "start": "npm run lint & gulp"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "babel": {
+    "presets": "latest",
+    "plugins": "transform-regenerator"
+  },
+  ```
